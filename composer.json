@@ -1,0 +1,23 @@
+{
+    "name": "iportillo/skeleton-php",
+    "description": "skeleton-php",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Iván portillo",
+            "email": "ipp_1981@hotmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
