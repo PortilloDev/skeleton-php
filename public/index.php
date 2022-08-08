@@ -1,6 +1,9 @@
 <?php 
 
-require '../vendor/autoload.php';
+require './../vendor/autoload.php';
 
+use App\Example;
 
-echo "Skeleton PHP \n";
+$example = new Example();
+
+echo $example->welcome();
