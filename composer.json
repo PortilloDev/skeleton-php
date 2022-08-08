@@ -14,7 +14,7 @@
             "email": "blognotasdesarrolloweb@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "phpunit/phpunit": "^9.5"
     }
