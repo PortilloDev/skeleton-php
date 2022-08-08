@@ -17,5 +17,6 @@
     "minimum-stability": "dev",
     "require": {
         "phpunit/phpunit": "^9.5"
-    }
+    },
+    "prefer-stability":true
 }
