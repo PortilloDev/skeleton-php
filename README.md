@@ -1,6 +1,8 @@
 # skeleton-php
 Basic php skeleton with the PSR-4 specification, for class autoloading.
 
+Integrated into the skeleton linter for static analysis and code styles and automatic code refactoring.
+
 ---
 > **Requires [PHP 8.2+](https://php.net/releases/)**
 
