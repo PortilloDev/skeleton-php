@@ -4,8 +4,8 @@ namespace App;
 
 class Example
 {
-    public function welcome()
+    public function welcome(): string
     {
-        return "Skeleton PHP" . "\n";
+        return "Hello, world!";
     }
 }
