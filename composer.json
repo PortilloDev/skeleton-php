@@ -1,12 +1,13 @@
 {
     "name": "iportillo/skeleton-php",
     "description": "Basic PHP skeleton with the PSR-4 specification for class autoloading",
-    "type": "library",
+    "type": "project",
     "license": "MIT",
     "autoload": {
         "psr-4": {
             "App\\": "src/"
-        }
+        },
+         "files": ["src/helpers.php"]
     },
     "authors": [
         {
@@ -16,7 +17,15 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "phpunit/phpunit": "^9.5"
+         "phpunit/phpunit": "^9.5",
+        "vlucas/phpdotenv": "^5.5",
+        "symfony/var-dumper": "^6.0"
     },
+    "scripts": {
+        "start": "php -S localhost:8000 -t public",
+        "test": "composer test:unit && composer test:types",
+        "lint": "composer lint",
+        "refactor": "composer refacto"
+    }
     "prefer-stability":true
 }
