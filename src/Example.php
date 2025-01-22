@@ -4,8 +4,8 @@ namespace App;
 
 class Example
 {
-    public function welcome(): string
+    public function welcome(string $name): string
     {
-        return "Hello, world!";
+        return greetUser($name);;
     }
 }

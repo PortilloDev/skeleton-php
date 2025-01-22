@@ -6,4 +6,4 @@ use App\Example;
 
 $example = new Example();
 
-echo $example->welcome();
+echo $example->welcome('Iván');
