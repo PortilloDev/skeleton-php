@@ -7,11 +7,11 @@ Integrated into the skeleton linter for static analysis and code styles and auto
 > **Requires [PHP 8.2+](https://php.net/releases/)**
 
 
-### Init project - Execution composer
-```bash
-composer install
+### Create new project
+For initial new project, execute this command:
 ```
-
+composer create-project iportillo/skeleton-php project-name
+```
 ## Commands in skeleton
 Use codebase with **Pint**:
 ```bash
